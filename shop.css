@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.containor{
+    height: 1650px;
+    background-color: rgb(255, 214, 167);
+}
+nav a{
+    text-decoration: none;
+    float: right;
+    display: block;
+    text-align: center;
+   padding: 15px;
+
+}
+nav li{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    display: inline-block;
+
+}
+.navbar{
+    height: 90px;
+    display: block;
+    position: absolute;
+    left: 60%;
+    top: 2px;
+
+}
+.navbar a:hover{
+    color: rgb(199, 74, 74);
+
+}
+.baa{
+    display: block;
+  width: 500px;
+  height: 700px;
+    position: absolute;
+}
+.up{
+    position: absolute;
+}
+.wo{
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    bottom: 20px;
+    left: 40px;
+    animation: move ease infinite  1s;
+
+
+}
+.wo:hover{
+  
+        color: black;
+        user-select: none;
+        transition: 0.5s;
+    
+}
+.wor{
+    position: absolute;
+    color: white;
+    left: 50px;
+    top: 5px;
+}
+.wor:active{
+    color: rgba(0, 0, 0, 0.384);
+    user-select: none;
+}
+.wor:hover{
+    color: black;
+    user-select: none;
+    transition: 0.5s;
+}
+.off{
+    position: absolute;
+    color: black;
+    left: 60%;
+    top: 200px;
+}
+.T{
+    position: absolute;
+    color: black;
+    left: 60%;
+    top: 330px;
+}
+.u{
+    position: absolute;
+    color: black;
+    left: 60%;
+    top: 350px;
+
+}
+.bu{
+    padding-top:20px ;
+    padding-bottom:20px ;
+    padding-right:30px ;
+    padding-left: 30px;
+    background-color:black ;
+    border-radius: 30px;   
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 60%;
+    top: 480px;
+
+}
+.bu:hover{
+    background-color: rgb(13, 216, 216);
+    color: black;
+    transition: 0.5s;
+}
+.bu:active{
+    background-color: rgb(157, 255, 0);
+}
+.glass{
+    position: absolute; 
+    left: 50%;
+    top: 700px;
+
+    width: 50%;
+
+}
+.og2{
+position: absolute;
+left: 50%;
+top: 750px;
+}
+.o{
+    position: absolute;
+left: 70%;
+top: 830px;
+font-size: 30px;
+
+}
+.og{
+    left: 0%;
+    top: 1000px;
+    width: 50%;
+    position: absolute;
+}
+.do{
+    position: absolute;
+    font-size: 900px;
+    top: 300px;
+    left: 42%;
+}
+.cu{
+    position: absolute;
+    font-size: 900px;
+    top:700px;
+    left: 1%;
+}
+
+.oo{
+    position: absolute;
+    left: 22%;
+    top: 770px;
+    font-size: 25px;
+
+}
+.mag{
+    position: absolute;
+    font-size: 900px;
+    top:1100px;
+    left: 1%;
+}
+.maa{
+    position: absolute;
+    font-size: 30px;
+    top:1150px;
+    left: 22%;
+}
+.ch{
+    position: absolute;
+
+    top: 1190px;
+    left: 700px;
+}
+.out{
+    position: absolute;
+    font-size: 30px;
+    top: 1250px;
+    left: 950px;
+}
+.bb{
+    position: absolute;
+    top: 1430px;
+    left: 0px;
+    width: 2000px;
+    height: 300px;
+
+}
+.no{
+    position: absolute;
+    top: 1450px;
+    left: 40%;
+    font-size: 35px;
+    color: white;
+    
+}
+.no:hover{
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sub{
+    position: absolute;
+    position: absolute;
+    top: 1605px;
+    left: 70%;
+   
+    
+   
+  
+
+}
+.sub{
+    background-color: black;
+    color: white;
+    padding: 10px 25px 10px 25px ;
+    cursor: pointer;
+    border-radius:30px ;position: absolute;
+}
+.sub:hover{
+    background-color: red;
+    color: white;
+    box-shadow:  2px 2px 5px #fc894d;
+  animation-duration: 4s;
+  position: absolute;
+  
+
+}
+.sub:active{
+    background-color: rgb(208, 255, 0);
+    color: rgb(255, 255, 255);
+    box-shadow:  4px 4px 10px #eafc4d;
+  animation-duration: 4s;
+  
+position: absolute;
+}
+#email{
+    position: absolute;
+    top: 1600px;
+    left: 40%;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    padding-right:30px ;
+    padding-left: 30px;
+    border-radius: 30px;
+    background-color:black ;
+    color: white;
+}
+#email:hover{
+    width: 300px;
+    transition: 0.9s;
+    background-color:black ;
+    color: white;
+}
+.stt{
+    position:absolute;
+    top: 985px;
+    left: 45%;
+    animation-timeline:view(70% 15%) ;
+    animation: auto;
+  
+}
+@keyframes auto{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.maa,.out,.o,.oo{
+    animation: show;
+    animation-timeline:view(30% 5%);
+}
+@keyframes show{
+    from{
+        opacity: 0;
+        transform: translateY(200px)scale(0.3);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0)scale(1);
+    }
+}
+
+@keyframes move{
+    from{
+        color: rgb(255, 255, 255);
+    }
+    to{
+        color: black;
+    }
+}
